@@ -1,0 +1,31 @@
+.home {
+  background-image: url("../../assets/images/home.webp");
+  /* position: relative; */
+  height: 100vh;
+  background-position: 100%;
+  background-size: cover;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+.layer {
+  position: absolute;
+  top: 10%;
+  bottom: 0;
+  left: 0;
+  height: 90vh;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+  z-index: 9;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+  
+
+
+.slider {
+  position: relative;
+  top: 80%;
+  z-index: 99;
+  margin: 0 !important;
+  padding: 0 !important;
+}
